@@ -12,15 +12,26 @@
 
     <!-- google font link -->
     <link href="https://fonts.googleapis.com/css?family=Slackey&display=swap" rel="stylesheet">    <title>Rock, Paper, Scissors</title>
-  </head>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+</head>
   <body class="body">
       <!-- Header Tag -->
     <h1 id="headerdiv" class="container-fliuid">I want to ROCK!!! or paper, or scissors.</h1>
 
     <!-- Flex box container to evenly distribute the game container -->
     <div class="container-fluid" id="flexdiv">
-        <div class="gamerboxes" id="playerdiv"></div>
-        <div class="gamerboxes" id="opponentdiv"></div>
+        <div class="gamerboxes" id="playerdiv">
+            <button class="player" id="rock"></button>
+            <button class="player" id="paper"></button>
+            <button class="player" id="scissor"></button>
+            <p id="playerprompt">Choose your weapon and show no mercy!!!</p>
+        </div>
+        <div class="gamerboxes" id="opponentdiv">
+                <button class="opponent" id="rock"></button>
+                <button class="opponent" id="paper"></button>
+                <button class="opponent" id="scissor"></button>
+                <p id="opponentprompt">If they hit you with a rock, you hit them back with the paper!!!</p>
+            </div>
     </div>
 
     <!-- Div to contain game results, tally etc.... -->
@@ -28,7 +39,11 @@
 
         <!-- Div for the results to be appended -->
         <div id="resultappend">
-            
+
+            <!-- divs to display your selection and opponents -->
+            <div id="playerselect"></div>
+            <div id="opponentselect"></div>
+
         </div>
     </div>
 
