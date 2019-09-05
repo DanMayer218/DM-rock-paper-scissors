@@ -7,11 +7,31 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Our own css stylesheet -->
     <link rel="stylesheet" href="style.css">
-    <title>Rock, Paper, Scissors</title>
+
+    <!-- google font link -->
+    <link href="https://fonts.googleapis.com/css?family=Slackey&display=swap" rel="stylesheet">    <title>Rock, Paper, Scissors</title>
   </head>
   <body class="body">
+      <!-- Header Tag -->
     <h1 id="headerdiv" class="container-fliuid">I want to ROCK!!! or paper, or scissors.</h1>
+
+    <!-- Flex box container to evenly distribute the game container -->
+    <div class="container-fluid" id="flexdiv">
+        <div class="gamerboxes" id="playerdiv"></div>
+        <div class="gamerboxes" id="opponentdiv"></div>
+    </div>
+
+    <!-- Div to contain game results, tally etc.... -->
+    <div class="container-fluid" id="resultsdiv">
+
+        <!-- Div for the results to be appended -->
+        <div id="resultappend">
+            
+        </div>
+    </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
