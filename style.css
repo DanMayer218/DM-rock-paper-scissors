@@ -1,1 +1,16 @@
+.body {
+    background-image: url(images/RPS\ background.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#headerdiv {
+
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    text-shadow: 2px 2px #ff0000;
+
+}
+    
 
